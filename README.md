@@ -30,6 +30,10 @@ Yoga buddy is an Android app help you to learn yoga from your home. This app inc
  - [Download apk file](https://drive.google.com/file/d/1AHk-HZztBkLqCrOvyPmhBYLeWDG4g1m2/view?usp=drive_link)
 
 
+## Note
+
+all images and videos are subject to copyright and use only for personal use.
+the images and video are not mine and owned by thier copyrighted owner.
 
 ## Feedback
 
