@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="53dp"
+    android:paddingBottom="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/sign_up_username_input"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/input_card"
+            android:drawableStart="@drawable/profile"
+            android:drawablePadding="8dp"
+            android:hint="Full name"
+            android:textColor="@color/white"
+            android:textColorHint="#638A84"
+            android:paddingStart="8dp" />
+
+        <EditText
+            android:id="@+id/sign_up_email_input"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/input_card"
+            android:drawableStart="@drawable/email_icon"
+            android:drawablePadding="8dp"
+            android:hint="Enter your email "
+            android:textColor="@color/white"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#638A84"
+            android:paddingStart="8dp" />
+
+        <EditText
+            android:id="@+id/sign_up_password_input"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/input_card"
+            android:drawableStart="@drawable/password_icon"
+            android:drawablePadding="8dp"
+            android:hint="Password"
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            android:textColorHint="#638A84"
+            android:paddingStart="8dp" />
+
+        <Button
+            android:id="@+id/sign_up_btn"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="#EB784E"
+            android:text="Continue"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

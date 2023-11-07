@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "623338945549",
+    "project_id": "yoga-buddy-e9c61",
+    "storage_bucket": "yoga-buddy-e9c61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623338945549:android:428b92d73ddf8414efe944",
+        "android_client_info": {
+          "package_name": "com.example.yogabuddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-IYple3JIQineKj-2_O2TBoJDijJ3xQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home"
+    android:title="Home"
+    android:icon="@drawable/home"
+    />
+
+    <item
+        android:id="@+id/task"
+        android:title="Task"
+        android:icon="@drawable/dumbbell_small"
+        />
+
+    <item
+        android:id="@+id/meditation"
+        android:title="Meditation"
+        android:icon="@drawable/meditation_round"
+        />
+
+    <item
+        android:id="@+id/chatbot"
+        android:title="Yog Guru"
+        android:icon="@drawable/chat_bot_icon"
+        />
+
+    <item
+        android:id="@+id/profile"
+        android:title="Account"
+        android:icon="@drawable/profile_icon"
+        />
+
+
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/background_color"
+    tools:context=".DailyQuotesActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            app:lottie_rawRes="@raw/intro_lottie"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            />
+        
+        <TextView
+            android:id="@+id/daily_quotes"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="&quot;Yoga is the journey of the self, through the self, to the self.&quot;"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:fontFamily="@font/lora"
+            />
+
+        <TextView
+            android:id="@+id/quotes_athor"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="The Bhagavad Gita"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#EB784E"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lora"
+            />
+
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:lottie_rawRes="@raw/quotes_loading"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_marginTop="50dp"
+            />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
